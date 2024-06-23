@@ -74,7 +74,20 @@
 
             .certificates{
                 display: flex;
+                flex-wrap: wrap;
+                flex:25%;
+                max-width: 100%;
 
+            }
+
+            @media screen and (max-width: 600px){
+                .certificates{
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex:25%;
+                    max-width: 25%;
+    
+                }   
             }
         </style>
     </head>
@@ -91,9 +104,9 @@
 
             <div class="button-div">
                 <!--Connect Me Button-->
-                <a href="https://www.linkedin.com/in/matang-mehra-b28b38265/">
-                <button class="connect-button" >CONNECT +</button>
-                </a>
+                
+                <button class="connect-button"  onclick=location.href="https://www.linkedin.com/in/matang-mehra-b28b38265/">CONNECT +</button>
+                
             </div>
         </div>
         </header>
