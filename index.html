@@ -4,173 +4,121 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <meta name="Personal Portfolio" content="Wlcome to my personal Portfolio">
+
+        <link rel="stylesheet" href="./style.css"/>
         <title>Matang Mehra</title>
         
-        <style>
-            body{
-                margin-right: 10%;
-                margin-top: 2%;
-                margin-left: 10%;
-                margin-bottom: 10%;
-                background: #2E2E2E;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            }
-
-            a{
-                text-decoration: none;
-            }
-
-
-            .box_1{
-                display: flex;
-            }
-
-
-            .header_{
-                display: flex;
-                align-content: start;
-                margin: 0%;
-            }
-
-            .menu{
-                display: flex;
-                font-style: italic;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                margin-top: 2%;
-                text-decoration: none;
-                width: 50%;
-
-                
-            }
-
-            .name-tagline{
-                width: 50%;
-            }
-
-            .menu-items{
-                padding-left: 2%;
-                text-transform: uppercase;
-                color: #efeff7;
-                font-size: 20px;
-                font-style: bold;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            }
-
-            .button-div{
-                margin-top: 3%;
-            }
-
-            .connect-button{
-                background-color: #0b0ba3;
-                border-radius: 5%;
-                color: white;
-                font-size: 16px;
-                padding: 5px;
-                border: 0px;
-                width: 120px;
-                height: 40px;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                }
-
-            .certificates{
-                display: flex;
-
-            }
-        </style>
     </head>
     <body>
-        <header>
-        <div class="header_">
-            <div class="name-tagline">
-                <h1 style="color: #0b0ba3;">MATANG MEHRA</h1>
-                <p style="color: rgb(184, 184, 184);"> Enthusiast | Problem Solver | Future Engineer</p>
-            </div>
-            <div class="menu">
-                
-            </div>
+        <nav>
+                <div class="name-tagline">
+                    <h1 style="color: #0b0ba3;">MATANG MEHRA</h1>
+                    <p style="color: rgb(184, 184, 184);"> Enthusiast | Problem Solver | Future Engineer</p>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#certificate">CERTIFICATES</a></li>
+                        <li><a href="#Blogs">BLOGS</a></li>
+                    </ul>
+                </div>
 
-            <div class="button-div">
-                <!--Connect Me Button-->
-                <a href="https://www.linkedin.com/in/matang-mehra-b28b38265/">
-                <button class="connect-button" >CONNECT +</button>
-                </a>
-            </div>
-        </div>
-        </header>
+                <div class="button-div">
+                    <!--Connect Me Button-->
+                    <a href="https://www.linkedin.com/in/matang-mehra-b28b38265/">
+                    <button class="connect-button" >CONNECT +</button>
+                    </a>
+                </div>
+        </nav>
+
+
         <hr>    
 
-        <img alt="Banner" src="../images/Banner.png" width="1455px">
+        <img alt="Banner" class="Banner_img" src="../images/Banner.png" width="1455px">
 
         <!--Main Content 👇-->
         <div style="display: flex;">
             <div id="about" style="color: white;  border-radius:5px; padding:5px; padding: left 5px; margin-top:2%; width:70%;">
                 <h1>WHO AM I ?</h1>
                 <div style="text-align: justify; margin-right:2%; margin-left: 2%;">
+                    <br>
                     <p>
                         Hello, I'm <b>Matang Mehra</b>.
-                    </p>
+                    </p><br>
                     <p>
                         I am currently pursuing a <b>B.Tech in Computer Science and Engineering (CSE) at Accurate Institute of Management and Technology</b>. I completed my <b>Secondary and Higher Secondary education at Vidya Bharati School, Rohini</b>.
                     </p>
-    
+                    <br>
                     <h2>Passionate about Technology</h2>
-    
+                    <br>
                     <p>
                         My passion lies in <b>coding, hacking</b>, and continuously learning new things from the internet. <b>I am a certified Python programmer and am currently expanding my skills by learning C and full stack web development</b>. Additionally, I have completed a course in <b>cyber security</b>, equipping me with valuable knowledge in cyber security and penetration testing.
                     </p>
-    
+                    <br>
                     <h2>Skills and Hobbies</h2>
-    
+                    <br>
                     <p>
                         I thrive on exploring new technologies and staying updated with the latest trends in the tech world. My hobbies include watching movies, listening to music, driving, surfing the internet, and of course, coding.
                     </p>
                 </div>
             </div>
-            <div style="color: white; background-color:#4c4c4d; border-radius:5px; padding:5px; padding: left 5px; margin-top:2%; width:0.01%; margin-left:5%; margin-right:0.5%;"></div>
-            
-            <!--Side Menu-->
-            <div style="color: white; border-radius:5px; padding:5px; padding: left 5px; margin-top:2%; width:30%;">
-                <p  align="right" style="margin-right: 15%;">
-                    <a class="menu-items" href="#about">ABOUT</a>
-                </p>
-                <p align="right" style="margin-right: 15%;">
-                    <a class="menu-items" href="#certificate">Certificates</a>
-                </p>
-            </div>
-
         </div>
         <br>
         <br>
+
+        <!--Certificates Section-->
         <div id="certificate" style="color:white; background-color:#4c4c4d; border-radius: 5px;">
                 
             <h1 style="padding: 1%;">CERTIFICATES</h1>
 
                 <div class="certificates">
-                    <div style="margin:1%;">
+                    <div style="margin:1%;" class="certificate-box">
                         <img src="../images/certificates/CS-Internship.png" alt="CS Internship" width="300px">
                         <hr>
                         <h4 align="center">Cyber Security Internship</h4>
-                        <h4 align="center">From : 1stop.ai</h4>
+                        <h4 align="center"><a href="https://www.1stop.ai">From : 1stop.ai</a></h4>
                     </div>
 
-                    <div style="margin:1%;">
+                    <div style="margin:1%;" class="certificate-box">
                         <img src="../images/certificates/Git&Github-Geekster.png" lt="CS Internship" width="300px">
                         <hr>
                         <h4 align="center">Git & Github Certification</h4>
-                        <h4 align="center">From : Geekster.com</h4>
+                        <h4 align="center"><a href="https://www.Geekster.com">From : Geekster.com</a></h4>
                     </div>
 
-                    <div style="margin:1%;">
+                    <div style="margin:1%;" class="certificate-box">
                         <img src="../images/certificates/PythonBasics.png" alt="CS Internship" width="300px">
                         <hr>
                         <h4 align="center">Python Basics Certification</h4>
-                        <h4 align="center">From : Hackerrank.com</h4>
+                        <h4 align="center"><a href="https://www.Hackerrank.com">From : Hackerrank.com</a></h4>
                     </div>
 
+
                 </div>
-                
-                
-            
+                  
+        </div>
+
+        <br>
+        <br>
+        <!--Bolgs-->
+        <div id="Blogs" class="blog-box">
+            <h1>BLOGS</h1>
+
+            <div class="blog-post-box">
+                <div class="blog-post">
+                    <div class="post-img">
+                        <img alt="Post img" src="">
+                    </div>
+
+                    <div class="post-details">
+                        <h1>Post Heading</h1>
+                        <p>POst Description</p>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </body>
 </html>
