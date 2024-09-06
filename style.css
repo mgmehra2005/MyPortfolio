@@ -95,15 +95,18 @@ nav{
 }
 
 .certificates{
-    display: inline-block;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
 }
+
 
 .certificate-box{
     float: left;
-
+    margin-bottom: 10px;
 }
 
 .certificate-box img:hover{
