@@ -138,14 +138,65 @@ nav{
     border: solid 2px white;
 }
 
+.post-details-bar{
+    color: white;
+}
+
+.post-img-bar{
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+.post-img-bar img{
+    padding-right: 5px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.post-details-bar h1{
+    font-size: 30px;
+}
+
+.post-details-bar p{
+    font-size: 20x;
+}
+
 .post-img{
     padding-right: 5px;
+    width: 100%;
+    border-radius: 10px;
 }
 
-.post-details h1{
-    font-size: 20px;
+.head-img{
+    width: 100%;
+    border-radius: 5px;    
 }
 
-.post-details p{
-    font-size: 15px;
+.post-body{
+    color: white;
+    text-align: justify;
+    font-size: 18px;
 }
+
+
+.post-body h1{
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    z-index: 1;
+}
+
+.post-body table, thead, tbody, tr, td, th{
+    border: white solid 2px;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+ul{
+    margin-left: 30px;
+}
+
+h2, h3, h4, h5, h6{
+    margin-bottom: 5px;
+}
+
