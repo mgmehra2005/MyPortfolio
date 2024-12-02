@@ -24,7 +24,7 @@ body {
     min-width: 100%;
     min-height: 100%;
     background-position: center;
-    filter: contrast(1.1) brightness(0.3);
+    filter: contrast(1) brightness(1);
 }
 
 .main-container{
@@ -82,12 +82,18 @@ nav ul li a:hover{
     justify-content: space-evenly;
 }
 
+.image-container{
+    display: flex;
+    border: 1px solid aqua;
+    overflow: hidden;
+    border-radius: 60px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
 .my-image{
     max-width: 550px;
-    margin: 20px;
-    border-bottom: 2px solid aqua;
-    border-radius: 40%;
-    /* box-shadow: 0px 10px 8px aqua; */
+    margin: 20px 20px 0px 20px;
 }
 
 .welcome-message{
@@ -254,4 +260,11 @@ footer{
     padding-right: 5px;
     width: 200px;
     border-radius: 10px;
+}
+
+.Published-on{
+    justify-content: space-between; 
+    display: flex; 
+    align-items: end;
+    color: aqua;
 }
