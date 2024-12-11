@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matang Mehra {% block title %} {% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/default.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.png' ) }}" type="image/x-icon">
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.png' ) }}" type="image/x-icon">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YJFL3YDNQX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-YJFL3YDNQX');
+    </script>
+    
+</head>
+<body>
+    {% block abovenav %}
+    {% endblock %}
+    <div class="main-container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('home_page') }}">Home</a></li>
+                    <li><a href="{{ url_for('about_page') }}">About</a></li>
+                    <li><a href="{{ url_for('blogs_page') }}">Blogs</a></li>
+                    <li><a href="{{ url_for('projects_page') }}">Projects</a></li> 
+                </ul>
+            </nav>
+        </header>
+
+        {% block content %} 
+        
+        {% endblock %}
+
+        <footer>
+            <span class="copyright">&copy; 2024 Matang Mehera</span>
+        </footer>
+    </div>
+
+</body>
+</html>

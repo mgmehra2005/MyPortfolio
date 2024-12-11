@@ -1,0 +1,42 @@
+{% extends "base_temp.html" %}
+
+{% block title %} - Blogs {% endblock %}
+
+{% block content %}
+<main>
+    <section class="blog-box">
+        <div class="blog-post" onclick="location.href='../Blogs/VPN-vs-Proxy-How-Does-a-VPN-Work.html';">
+            <div class="post-img-bar">
+                <img alt="Post img" src="{{url_for('static', filename="images/Blogs/vpn-vs-proxy.jpeg")}}" width="200px">
+            </div>
+
+            <div class="post-details-bar">
+                <h1>VPN vs Proxy: How Does a VPN Work?</h1>
+                <p>Discover how VPNs work and their key differences from proxies. Learn about VPN encryption, protocols, and benefits for enhanced online security and privacy.</p>
+                <div class="Published-on">
+                    <span>
+                        Publish Date : 13 October, 2024
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog-post" onclick="location.href='../Blogs/How-Data-Flows-Over-the-Internet.html';">
+            <div class="post-img-bar">
+                <img alt="Post img" src="{{url_for('static', filename="images/Blogs/How-Data-Flows_over-the-Internet.png")}}" width="200px">
+            </div>
+
+            <div class="post-details-bar">
+                <h1>How Data Flows Over the Internet?</h1>
+                <p>Whenever you search for a file, video, music, etc on the google or any other search engine they search on the internet and displays you the result. These files, videos , etc. are stored somewhere in the world in someones computer who shared this publicly on the internet.</p>
+                <div class="Published-on">
+                    <span>
+                        Publish Date : 13 November, 2024
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</main>
+{% endblock %}
