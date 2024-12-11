@@ -250,28 +250,31 @@ footer{
     padding: 8px;
     border-radius: 5px;
     width: 100%;
+    margin: 1%;
 }
 
 .blog-post:hover{
-    border: solid 2px #55372d;
-    transition: 1s
+    box-shadow: 0px 0px 2px black;
 }
 
-.post-img-bar{
-    padding-right: 5px;
-    border-radius: 10px;
+.post-details-bar {
+    width: 100%;
 }
 
-.post-img-bar img{
-    padding-right: 5px;
-    width: 200px;
-    border-radius: 10px;
+.extra-info {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
 }
 
-.Published-on{
-    justify-content: space-between; 
+
+.Published-on, .author{
     display: flex; 
     align-items: end;
     color: #534642;
     margin-top: 1%;
+}
+
+.author {
+    float: right;
 }
