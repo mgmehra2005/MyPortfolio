@@ -278,3 +278,69 @@ footer{
 .author {
     float: right;
 }
+
+.connect-main {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding:  15px;
+    overflow: hidden;
+}
+
+.connections p {
+    font-size: 20px;
+    color: #55372d;
+}
+
+.connections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.social-links {
+    margin: 1%;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-link-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #d04662;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 20px;
+    font-weight: bold;
+    font-size: large;
+    width: 100%;
+    color: #d04662;
+}
+
+.social-link-buttons:hover {
+    background-color: #d04662;
+    color: white;
+}
+
+
