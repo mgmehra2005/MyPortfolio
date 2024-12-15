@@ -77,3 +77,7 @@ def blogs_page():
             'published_date': published,
         })
     return render_template('blogs.html', entries=entries)
+
+@app.route('/connect-with-me')
+def connect_page():
+    return render_template('connect.html')
