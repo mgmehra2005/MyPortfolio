@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/run/media/code/Data Drive/Users/CODE WRITER/Matang/Personal/My-Website/mgmehra2005.github.io/bin/python" "$0" "$@"
-' '''
+#!/run/media/code/Personal/My-Website/mgmehra2005/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
