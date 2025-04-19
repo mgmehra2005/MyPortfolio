@@ -76,7 +76,7 @@ nav ul li a:hover{
     padding-right: 10%;
 }
 
-.image-container{
+/* .image-container{
     position: fixed;
     right: 0;
     bottom: 0;
@@ -92,13 +92,36 @@ nav ul li a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
+
+
+/* Container for the background */
+.image-container {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    background-color: white; /* Default white background */
+    
+  }
+  
+  /* The background image */
+  .my-image {
+    width: 100%;
+    height: auto;
+    display: none; /* Hidden by default for small screens */
+    object-fit: cover;
+    max-width: 100%;
+  }
+  
+
 
 .welcome-message{
     display: flex;
     flex-direction: column; 
     justify-content: center;
-    max-width: 40%;
+    max-width: 100%;
     margin: 20px;
     float: right;
     padding: 10px;
@@ -116,6 +139,19 @@ nav ul li a:hover{
     color: #55372d;
     
 }
+
+  /* For desktop screens (width >= 1274px) */
+  @media screen and (min-width: 1274px) {
+    .my-image {
+      display: block; /* Show the image on desktop */
+      position: fixed; /* Fixed position to cover the entire viewport */
+      z-index: -1; /* Ensure the image is behind other content */
+    }
+
+    .welcome-message{
+        max-width: 40%;
+    }
+  }
 
 #resume{
     justify-content: center;
