@@ -379,4 +379,75 @@ footer{
     color: white;
 }
 
+.ProjectMasterContainer {
+	margin-top: 1%;
+}
+
+.ProjectContainer {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #d04662;
+	width: 400px;
+	overflow: hidden;
+	margin: 1%;
+	padding: 10px;
+	border-radius: 20px;
+	transition: transform 1s, box-shadow 1s;
+}
+.ProjectContainer:hover {
+	box-shadow: 0px 0px 10px #d04662;
+	transform: scale(1.01);
+	}
+
+
+.ProjectThumbnail {
+	overflow: hidden;
+	width :auto;
+	height: 300px;
+	margin: 5px;
+	border-radius: 15px;
+}
+
+.ProjectThumbnailImage {
+	width: 800px;
+	height: 300px;
+	border-radius: 15px;
+}
+
+.ProjectInfo {
+	align-items: center;
+	align-content: center;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.ProjectInfoTitle {
+	text-align: center;
+}
+
+.ProjectInfoDescription {
+	text-align: center;
+}
+
+.ProjectInfoLink {
+	font-weight: 500;
+	margin-top:5px;
+	border: none;
+	background-color: #d04662;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	font-size: 25px;
+	color: white;
+	border-radius: 15px;
+	transition: 1s;
+}
+
+.ProjectInfoLink:hover {
+	border: 1px solid #d04662;
+	background-color: transparent;
+	color: #d04662;
+}
+
 

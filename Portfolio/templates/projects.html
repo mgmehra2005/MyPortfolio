@@ -5,9 +5,22 @@
 {% block content %}
 
 <main>
-    <center style="margin: 20%; ">
-        No Projects Yet
-    </center>
+	<div class="ProjectMasterContainer">
+
+		<div class="ProjectContainer">
+			<div class="ProjectThumbnail">
+				<img class="ProjectThumbnailImage" src="{{url_for('static',filename='images/Yt-spoof.png')}}" >
+
+			</div>
+			<div class="ProjectInfo">
+				<h3 class="ProjectInfoTitle">Yt-Spoof</h3>
+				<p class="ProjectInfoDescription">YT-SPOOF is a powerful Bash script that leverages the magic of yt-dlp and spotify_dl to bring all your media downloads under one roof. 🥳</p>
+				<button class="ProjectInfoLink" onclick="window.location.href='https://github.com/mgmehra2005/Yt-Spoof'" formtarget="_blank">See On Github</button>
+			</div>
+			
+		</div>
+
+	</div>
 </main>
 
 {% endblock %}
