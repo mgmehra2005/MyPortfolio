@@ -6,3 +6,4 @@ bin/activate
 bin/activate
 bin/activate.csh
 /bin
+/venv
