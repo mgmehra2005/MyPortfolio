@@ -381,6 +381,9 @@ footer{
 
 .ProjectMasterContainer {
 	margin-top: 1%;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
 }
 
 .ProjectContainer {
@@ -402,14 +405,14 @@ footer{
 
 .ProjectThumbnail {
 	overflow: hidden;
-	width :auto;
+	width: auto;
 	height: 300px;
 	margin: 5px;
 	border-radius: 15px;
 }
 
 .ProjectThumbnailImage {
-	width: 800px;
+	width: 400px;
 	height: 300px;
 	border-radius: 15px;
 }
@@ -450,4 +453,25 @@ footer{
 	color: #d04662;
 }
 
+
+.ProjectTryLink {
+	font-weight: 500;
+	margin-top:5px;
+	border: none;
+	background-color: transparent;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	font-size: 25px;
+	color: #d04662;
+	border-radius: 15px;
+	transition: 1s;
+    border: 1px solid #d04662;
+}
+
+.ProjectTryLink:hover {
+	border: 1px solid white;
+	background-color: transparent;
+	color: #d04662;
+}
 

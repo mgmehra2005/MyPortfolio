@@ -6,7 +6,7 @@ bin/activate
 bin/activate
 bin/activate.csh
 /bin
-/venv
+/.venv
 /lib
 /Scripts
 /include
