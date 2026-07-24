@@ -13,3 +13,4 @@ bin/activate.csh
 /lib64
 pyvenv.cfg
 /__pycache__
+.vscode/
