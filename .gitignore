@@ -14,3 +14,5 @@ bin/activate.csh
 pyvenv.cfg
 /__pycache__
 .vscode/
+
+/node_modules
