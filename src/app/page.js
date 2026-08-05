@@ -12,12 +12,12 @@ export default function Home() {
   return (
     <>
       <AiDevelopmentService />
-      <WhatIncluded />
-      <OurApproach />
-      <WhyWorkWithUs />
-      <CommonQuestions />
-      <RelatedServices/>
-      <ClientFeedback />
+      {/* <WhatIncluded /> */}
+      {/* <OurApproach /> */}
+      {/* <WhyWorkWithUs /> */}
+      {/* <CommonQuestions /> */}
+      {/* <RelatedServices/> */}
+      {/* <ClientFeedback /> */}
       <GetQuote />
     </>
   );
