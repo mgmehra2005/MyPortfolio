@@ -2,8 +2,9 @@
 import React, { useRef, useEffect } from "react";
 import Link from "next/link";
 import ScrollReveal from "../animation/scrollReveal";
+import AnimatedButton from "../ui/animated-button";
 
-export default function AiDevelopmentService() {
+export default function Overview() {
   const canvasRef = useRef(null);
 
   useEffect(() => {
@@ -126,14 +127,17 @@ export default function AiDevelopmentService() {
   }, []);
   return (
     <ScrollReveal>
-      <section className="flex items-center justify-center w-full pt-[128px]">
+      <section
+        className="flex items-center justify-center w-full pt-[128px]"
+        id="overview"
+      >
         <div className="max-w-[1600px] w-full border-1 rounded-4xl border-white/10 overflow-hidden bg-[var(--glass-background)]">
           {/* top section */}
           <div className="relative py-[16px] px-[40px] w-full">
             <div className="flex justify-between w-full gap-3 items-center">
               <h6 className="uppercase flex gap-3 text-[12px] shrink-0 mx-3 tracking-widest">
-                <span className="text-white/50">services</span> /{" "}
-                <span>ai development</span>{" "}
+                <span className="text-white">Full stack development</span> /{" "}
+                <span>Cyber Security Enthusiasts</span>{" "}
               </h6>
               <div className="h-px w-full bg-white/10"></div>
               <div className="uppercase text-white/50 flex items-center shrink-0 mx-3 tracking-widest text-[12px]">
@@ -146,20 +150,19 @@ export default function AiDevelopmentService() {
           {/* middle section */}
           <div className="relative px-[40px] flex flex-row justify-between h-full w-full">
             {/* right section */}
-            <div className="relative flex items-center justify-start w-[60%] h-[500px] px-5 py-[40px]">
-              <h1 className="relative z-2 font-medium text-7xl leading-[110px]">
-                LONDON CUSTOM
-                <br />
-                <span className="text-[var(--primary-color)]">
-                  AI DEVELOPMENT
-                </span>
+            <div className="relative flex flex-col items-start justify-center w-[60%] h-[500px] px-5 py-[40px]">
+              <span className="text-[var(--primary-color)] tracking-widest text-[28px] block mb-4 uppercase flex items-center gap-3 font-bold">
+               Hi, I'm
+              </span>
+              <h1 className="relative z-2 font-extrabold text-8xl max-w-[50%] leading-[110px] uppercase">
+                Matang
+                
+                <span className="text-[var(--primary-color)]">Mehra</span>
               </h1>
-              {/* 3D Sphere */}
-              <div className="absolute h-[400px] w-[400px] bottom-2 right-0 left-140 opacity-45">
-                <canvas
-                  ref={canvasRef}
-                  className="w-full h-full right-0 top-0 bottom-0"
-                />
+              <p className="max-w-[90%] mt-3">Engineering secure, user-centric digital experiences that transform ideas into high-performing products through web development, SEO, and cybersecurity—building solutions designed for real-world impact.</p>
+              <div className="mt-8">
+                <AnimatedButton className="bg-transparent font-border-0 text-white ">Connect With Me</AnimatedButton>
+                
               </div>
             </div>
 
@@ -168,15 +171,12 @@ export default function AiDevelopmentService() {
             {/* left Section */}
             <div className="flex flex-col w-[30%] py-[20px] items-center justify-center text-wrap px-[20px]">
               <div className="flex justify-start flex-col">
-                <p className="leading-[30px] text-white/50">
-                  We're an AI development team based in London, ranked in the
-                  top 5% of AI developers globally. We design and build
-                  AI-powered websites, web applications, internal tools and
-                  custom software for UK and international clients - primarily
-                  using Claude (Anthropic), Lovable, Supabase and GitHub
-                  alongside senior engineering expertise. From AI-assisted
-                  builds that ship faster, to bespoke AI agents and automations
-                  that genuinely move the needle for your business.
+                <p className="leading-[30px] text-white/80">
+                  I am a B.Tech Computer Science student with a deep-seated passion for the intersection of development and security. My journey in tech is driven by the goal of building websites that are not only visually compelling but also architecturally sound and search-optimized.
+                </p>
+                <br/>
+                <p className="leading-[30px] text-white/80">
+Currently specializing in full-stack development, I've had the privilege of driving growth for startups and refining the digital presence of established brands through technical SEO and robust cybersecurity practices.
                 </p>
 
                 <Link
@@ -192,7 +192,7 @@ export default function AiDevelopmentService() {
                       <path d="M566.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L466.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l434.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" />
                     </svg>
                   </div>
-                  <span className="uppercase">Start a project</span>
+                  <span className="uppercase">Explore my projects</span>
                 </Link>
               </div>
             </div>
@@ -201,14 +201,14 @@ export default function AiDevelopmentService() {
           {/* bottom section */}
           <div className="h-px w-full bg-white/10"></div>
           <div className="py-[16px] px-[40px] bg-[#161717] flex justify-between">
-            <div className="flex flex-row gap-5 shrink-0 items-center">
+            <div className="flex flex-row gap-5 shrink-0 items-center justify-center">
               {/* Ping Dot Animation */}
               <div className="relative flex flex-col items-center justify-center gap-1">
                 <div className="absolute h-3 w-3 rounded-full bg-[var(--primary-color)] align-middle justify-center flex items-center animate-ping duration-200"></div>
                 <div className="h-2 w-2 rounded-full bg-[var(--primary-color)]"></div>
               </div>
-              <span className="text-white/50 tracking-widest text-[12px]">
-                LDN / WordPress / 51.5074° N
+              <span className="text-white/50 tracking-widest text-[16px] capitalize">
+                Crafting secure and performant digital experiences.
               </span>
             </div>
             <ScrollToExplore />

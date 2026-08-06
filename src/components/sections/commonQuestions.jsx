@@ -14,7 +14,7 @@ export default function CommonQuestions() {
   ];
   return (
     <main className="flex items-center justify-center w-full mt-[32px]">
-      <section className="relative items-end max-w-[1600px] w-full border-1 rounded-4xl border-white/10 bg-[var(--glass-background)] p-[32px_44.6px_32px_44.6px] grid grid-cols-3 gap-12">
+      <section className="relative items-end max-w-[1600px] w-full border-0 rounded-4xl border-white/10 bg-transparent p-[32px_44.6px_32px_44.6px] grid grid-cols-3 gap-12">
         {/* Left Section */}
        <SideHeader titleSet={{subTitle: "Common Questions", Title:"Frequently asked.", desc: "Quick answers to the things we get asked most. Still need clarity? Drop us a line."}}/>
 

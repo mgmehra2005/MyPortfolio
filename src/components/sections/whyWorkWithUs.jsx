@@ -16,7 +16,7 @@ export default function WhyWorkWithUs() {
       id="work"
       className="flex items-center justify-center w-full mt-[32px]"
     >
-      <section className="relative items-end max-w-[1600px] w-full border-1 rounded-4xl border-white/10 bg-[var(--glass-background)] p-[24.6px_44.6px_32px_44.6px] grid grid-cols-3 gap-12">
+      <section className="relative items-end max-w-[1600px] w-full border-0 rounded-4xl border-white/10 p-[24.6px_44.6px_32px_44.6px] grid grid-cols-3 gap-12">
         {/* Left Section */}
         <ScrollReveal>
         <SideHeader
@@ -43,7 +43,7 @@ function NarrowCards(props) {
   return (
     <>
       <ScrollReveal delay={0.1}>
-        <main className="flex rounded-3xl flex-col gap-4 bg-[#161717] hover:bg-[#161717]/30 hover:border-[#3067FF] transition-colors duration-600 ease-in-out p-4 border-1 border-white/10  w-full my-3 h-full items-start">
+        <main className="flex rounded-3xl flex-col gap-4 bg-[var(--glass-background)] hover:border-1 hover:border-[#3067FF] transition-all duration-600 ease-in-out p-4 border-0 border-white/10  w-full my-3 h-full items-start">
           <div className="font-medium text-[16px] text-white/50 text-pretty flex items-center align-middle h-full">
             <div className="relative flex flex-col items-center justify-center gap-1 pl-5 pr-4 items-start h-full">
               <div className="h-2 w-2 rounded-full bg-[var(--primary-color)]"></div>

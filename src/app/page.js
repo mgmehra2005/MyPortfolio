@@ -1,4 +1,3 @@
-import AiDevelopmentService from "@/components/sections/aiDevelopmentService";
 import ClientFeedback from "@/components/sections/clientFeedback";
 import CommonQuestions from "@/components/sections/commonQuestions";
 import GetQuote from "@/components/sections/getQuote";
@@ -7,18 +6,19 @@ import RelatedServices from "@/components/sections/relatedServices";
 import WhatIncluded from "@/components/sections/whatIncluded";
 import WhyWorkWithUs from "@/components/sections/whyWorkWithUs";
 import React from "react";
+import Overview from "@/components/sections/overview";
 
 export default function Home() {
   return (
     <>
-      <AiDevelopmentService />
-      {/* <WhatIncluded /> */}
-      {/* <OurApproach /> */}
-      {/* <WhyWorkWithUs /> */}
-      {/* <CommonQuestions /> */}
+      <Overview />
+      <WhatIncluded />
+      <OurApproach />
+      <WhyWorkWithUs />
       {/* <RelatedServices/> */}
       {/* <ClientFeedback /> */}
       <GetQuote />
+      <CommonQuestions />
     </>
   );
 }

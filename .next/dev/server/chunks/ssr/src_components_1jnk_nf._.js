@@ -189,9 +189,9 @@ function AiDevelopmentService() {
                                 className: "relative flex items-center justify-start w-[60%] h-[500px] px-5 py-[40px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                        className: "relative z-2 font-medium text-7xl leading-[110px]",
+                                        className: "relative z-2 font-extrabold text-8xl max-w-[50%] leading-[110px]",
                                         children: [
-                                            "LONDON CUSTOM",
+                                            "Matang",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/components/sections/aiDevelopmentService.jsx",
                                                 lineNumber: 152,
@@ -199,7 +199,7 @@ function AiDevelopmentService() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-[var(--primary-color)]",
-                                                children: "AI DEVELOPMENT"
+                                                children: "Mehra"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/aiDevelopmentService.jsx",
                                                 lineNumber: 153,

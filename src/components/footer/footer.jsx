@@ -5,24 +5,24 @@ import Link from "next/link";
 import ScrollReveal from "../animation/scrollReveal";
 
 export default function Footer() {
-  const [londonTime, setLondonTime] = useState("");
-  // Live London Clock Timer Engine
+  const [IndiaTime, setIndiaTime] = useState("");
+  // Live India Clock Timer Engine
   useEffect(() => {
-    const updateLondonTime = () => {
+    const updateIndiaTime = () => {
       const formatter = new Intl.DateTimeFormat("en-GB", {
-        timeZone: "Europe/London",
+        timeZone: "Asia/Calcutta",
         hour: "2-digit",
         minute: "2-digit",
         hour12: false, // Set to true if you prefer 12-hour AM/PM format
       });
-      setLondonTime(formatter.format(new Date()));
+      setIndiaTime(formatter.format(new Date()));
     };
 
     // Initialize immediately on mount
-    updateLondonTime();
+    updateIndiaTime();
 
     // Re-calculate time every 10 seconds to keep the clock lightweight
-    const interval = setInterval(updateLondonTime, 10000);
+    const interval = setInterval(updateIndiaTime, 10000);
 
     return () => clearInterval(interval);
   }, []);
@@ -34,22 +34,22 @@ export default function Footer() {
         className="relative flex items-center justify-center w-full mt-[32px] flex-col overflow-hidden"
       >
         <div className="bg-[#3067FF] w-[300px] h-[300px] absolute -z-1 rounded-full blur-[115px] -left-30 -bottom-50"></div>
-        <section className="relative items-start max-w-[1600px] w-full border-1 rounded-4xl border-white/10 bg-[var(--glass-background)]/80 p-[44.6px_44.6px_32px_44.6px] flex flex-col gap-12">
+        <section className="relative items-start max-w-[1600px] w-full border-0 backdrop-blur-sm rounded-4xl border-white/10 bg-[var(--glass-background)]/60 p-[44.6px_44.6px_32px_44.6px] flex flex-col gap-12">
           <div className="w-full grid grid-cols-4">
             {/* Logo, Subtitle & social links */}
             <ScrollReveal>
               <div className="flex flex-col items-start">
                 <figure className="my-2">
                   <Image
-                    src="/img/cloudTrainsLogo.png"
-                    alt="Cloud Trains Logo"
+                    src="/img/MyLogo.png"
+                    alt="Matang Mehra Logo"
                     width={200}
                     height={100}
                   />
                 </figure>
                 <p className="text-white/30 text-[14px] pl-2">
                   Web design, development and <br />
-                  support agency based in London.
+                  support agency based in India.
                 </p>
 
                 {/* Social Media Links */}
@@ -148,35 +148,35 @@ export default function Footer() {
           </div>
         </section>
 
-          <section className="relative items-start max-w-[1600px] w-full border-1 rounded-4xl border-white/10 bg-[var(--glass-background)] p-[14.6px_44.6px_14.6px_44.6px] flex gap-12 mt-[32px] mb-[32px] justify-between">
+          <section className="relative items-center max-w-[1600px] w-full border-0 bg-[var(--glass-background)]/60 backdrop-blur-sm rounded-4xl border-white/10 p-[14.6px_44.6px_14.6px_44.6px] flex gap-12 mt-[32px] mb-[32px] justify-between">
             <div className="flex gap-6">
               <span className="text-white/30 uppercase tracking-widest text-[13px]">
-                © 2026 CloudTrains
+                © 2026 Matang mehra
               </span>{" "}
-              <span className="text-white/50 hover:text-white uppercase tracking-widest text-[13px] duration-300 transition-colors ease-in-out cursor-pointer">
-                privacy policy
-              </span>
+                {/* <span className="text-white/50 hover:text-white uppercase tracking-widest text-[13px] duration-300 transition-colors ease-in-out cursor-pointer">
+                  privacy policy
+                </span> */}
             </div>
 
             <div className="flex shrink-0 gap-4 justify-center items-center">
-              {/* London Country Tag */}
+              {/* India Country Tag */}
               <div className="flex flex-row items-center gap-2 text-[13px]">
                 <Image
-                  className="opacity-60"
-                  src="/img/united-kingdom.svg"
-                  alt="United Kingdom Flag"
-                  width={14}
-                  height={10}
+                  className="opacity-100"
+                  src="/img/india.png"
+                  alt="India Flag"
+                  width={20}
+                  height={16}
                 />
-                <span className="text-white/50 font-light">LONDON</span>
+                <span className="text-white/80 font-medium uppercase">India</span>
               </div>
               <div className="h-4 w-px bg-white/10"></div>
-              {/* Lodon Clock */}
+              {/* India Clock */}
               <div className="flex flex-row items-center gap-2 text-[13px] text-white">
-                {londonTime}
+                {IndiaTime}
               </div>
               <div className="h-4 w-px bg-white/10"></div>
-              <div className="uppercase text-[13px] text-white/50 flex gap-2 flex items-center justify-center hover:text-white group duration-300 transition-colors ease-in-out">
+              <Link href="#overview" className="uppercase text-[13px] text-white/50 flex gap-2 flex items-center justify-center hover:text-white group duration-300 transition-colors ease-in-out">
                 back to top
                 <div className="border-1 border-white/10 rounded-full p-2 group-hover:bg-[#3067FF] duration-300 transition-colors ease-in-out">
                   <svg
@@ -187,7 +187,7 @@ export default function Footer() {
                     <path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3 160 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-370.7 105.4 105.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" />
                   </svg>
                 </div>
-              </div>
+              </Link>
             </div>
           </section>
       </main>
