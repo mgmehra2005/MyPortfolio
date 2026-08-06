@@ -35,7 +35,7 @@ export default function WhatIncluded() {
       id="service"
       className="flex items-center justify-center w-full mt-[32px]"
     >
-      <div className="relative items-start max-w-[1600px] w-full border-1 rounded-4xl border-white/10 bg-[var(--glass-background)] p-[24.6px_44.6px_32px_24.6px] grid grid-cols-[39%_60%]">
+      <div className="relative items-start max-w-[1600px] w-full border-0 rounded-4xl border-white/10 bg-transparent p-[24.6px_44.6px_32px_24.6px] grid grid-cols-[39%_60%]">
         <ScrollReveal>
           <div className="p-[12px_150px_12px_20px] sticky self-start top-28">
             <span className="text-white/50 tracking-widest text-[12px] block mb-6 uppercase">

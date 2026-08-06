@@ -32,7 +32,7 @@ export default function OurApproach() {
       id="about"
       className="flex items-center justify-center w-full mt-[32px]"
     >
-      <section className="relative items-start max-w-[1600px] w-full border-1 rounded-4xl border-white/10 bg-[var(--glass-background)] p-[24.6px_44.6px_32px_44.6px] flex flex-col gap-12">
+      <section className="relative items-start max-w-[1600px] w-full border-0 rounded-4xl border-white/10 bg-[var(--glass-background)] p-[24.6px_44.6px_32px_44.6px] flex flex-col gap-12">
         <TopHeader
           titleSet={{
             subTitle: "Our Approach",
@@ -57,7 +57,7 @@ function Card(props) {
   return (
     <>
       <ScrollReveal>
-        <main className="flex rounded-3xl flex-col gap-4 bg-[#161717] hover:bg-[#161717]/30 hover:border-[#3067FF] duration-600 ease-in-out p-8 border-1 border-white/10  min-w-[340px] max-w-[380px] max-h-[356px] min-h-[356px] transition-colors">
+        <main className="flex rounded-3xl flex-col gap-4 bg-[#161717] hover:bg-[#161717]/30 hover:border-[#3067FF] duration-600 ease-in-out p-8 border-0 border-white/10  min-w-[340px] max-w-[380px] max-h-[356px] min-h-[356px] transition-colors">
           <div className="font-medium text-5xl text-[#3067FF]">{id}</div>
           <div className="tracking-wide font-bold text-[20px]">{title}</div>
           <div className="text-wrap tracking-wide text-left text-white/50 text-[18px]">

@@ -21,11 +21,11 @@ var _s = __turbopack_context__.k.signature();
 function AiDevelopmentService() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(13);
-    if ($[0] !== "5a6c143fc3dccfd5d47736b97184fca8a22c6bce5150dd034f549cf14c09b9ba") {
+    if ($[0] !== "72762c8a9301d57db41acd42a622485c5f54c42ef5a6770c4d1f7e896060b3d3") {
         for(let $i = 0; $i < 13; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "5a6c143fc3dccfd5d47736b97184fca8a22c6bce5150dd034f549cf14c09b9ba";
+        $[0] = "72762c8a9301d57db41acd42a622485c5f54c42ef5a6770c4d1f7e896060b3d3";
     }
     const canvasRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     let t0;
@@ -213,21 +213,21 @@ function AiDevelopmentService() {
     let t5;
     if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
         t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-            className: "relative z-2 font-medium text-7xl leading-[110px]",
+            className: "relative z-2 font-extrabold text-8xl max-w-[50%] leading-[110px]",
             children: [
-                "LONDON CUSTOM",
+                "Matang",
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                     fileName: "[project]/src/components/sections/aiDevelopmentService.jsx",
                     lineNumber: 137,
-                    columnNumber: 89
+                    columnNumber: 97
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                     className: "text-[var(--primary-color)]",
-                    children: "AI DEVELOPMENT"
+                    children: "Mehra"
                 }, void 0, false, {
                     fileName: "[project]/src/components/sections/aiDevelopmentService.jsx",
                     lineNumber: 137,
-                    columnNumber: 95
+                    columnNumber: 103
                 }, this)
             ]
         }, void 0, true, {
@@ -474,11 +474,11 @@ function _AiDevelopmentServiceUseEffectRenderProjectedPointsSort(a, b) {
 }
 function ScrollToExplore() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(4);
-    if ($[0] !== "5a6c143fc3dccfd5d47736b97184fca8a22c6bce5150dd034f549cf14c09b9ba") {
+    if ($[0] !== "72762c8a9301d57db41acd42a622485c5f54c42ef5a6770c4d1f7e896060b3d3") {
         for(let $i = 0; $i < 4; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "5a6c143fc3dccfd5d47736b97184fca8a22c6bce5150dd034f549cf14c09b9ba";
+        $[0] = "72762c8a9301d57db41acd42a622485c5f54c42ef5a6770c4d1f7e896060b3d3";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
