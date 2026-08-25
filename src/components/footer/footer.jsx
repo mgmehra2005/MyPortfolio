@@ -34,7 +34,7 @@ export default function Footer() {
         className="relative flex items-center justify-center w-full mt-[32px] flex-col overflow-hidden"
       >
         <div className="bg-[#3067FF] w-[300px] h-[300px] absolute -z-1 rounded-full blur-[115px] -left-30 -bottom-50"></div>
-        <section className="relative items-start max-w-[1600px] w-full border-0 backdrop-blur-sm rounded-4xl border-white/10 bg-[var(--glass-background)]/60 p-[44.6px_44.6px_32px_44.6px] flex flex-col gap-12">
+        <section className="relative items-start max-w-[1600px] w-full border-0 backdrop-blur-sm rounded-4xl border-white/10 bg-[var(--glass-background)]/40 p-[44.6px_44.6px_32px_44.6px] flex flex-col gap-12">
           <div className="w-full grid grid-cols-4">
             {/* Logo, Subtitle & social links */}
             <ScrollReveal>
@@ -109,7 +109,7 @@ export default function Footer() {
               {/* services */}
               <div className="flex flex-col gap-4">
                 <p className="text-[var(--primary-color)] text-[14px] tracking-wide uppercase mb-3">
-                  Services
+                  Social Media Handles
                 </p>
                 <p className="text-white/50 hover:text-[var(--primary-color)] tracking-wide text-[13px] uppercase uppercase duration-300 ease-in-out transition-colors">
                   web design
@@ -148,9 +148,9 @@ export default function Footer() {
           </div>
         </section>
 
-          <section className="relative items-center max-w-[1600px] w-full border-0 bg-[var(--glass-background)]/60 backdrop-blur-sm rounded-4xl border-white/10 p-[14.6px_44.6px_14.6px_44.6px] flex gap-12 mt-[32px] mb-[32px] justify-between">
+          <section className="relative items-center max-w-[1600px] w-full border-0 bg-[var(--glass-background)]/40 backdrop-blur-sm rounded-4xl border-white/10 p-[14.6px_44.6px_14.6px_44.6px] flex gap-12 mt-[32px] mb-[32px] justify-between">
             <div className="flex gap-6">
-              <span className="text-white/30 uppercase tracking-widest text-[13px]">
+              <span className="text-white/60 uppercase tracking-widest text-[13px]">
                 © 2026 Matang mehra
               </span>{" "}
                 {/* <span className="text-white/50 hover:text-white uppercase tracking-widest text-[13px] duration-300 transition-colors ease-in-out cursor-pointer">

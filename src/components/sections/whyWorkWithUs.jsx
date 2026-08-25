@@ -43,7 +43,7 @@ function NarrowCards(props) {
   return (
     <>
       <ScrollReveal delay={0.1}>
-        <main className="flex rounded-3xl flex-col gap-4 bg-[var(--glass-background)] hover:border-1 hover:border-[#3067FF] transition-all duration-600 ease-in-out p-4 border-0 border-white/10  w-full my-3 h-full items-start">
+        <main className="flex rounded-3xl flex-col gap-4 bg-[var(--glass-background)]/40 hover:border-1 hover:border-[#3067FF] transition-all duration-600 ease-in-out p-4 border-0 border-white/10  w-full my-3 h-full items-start">
           <div className="font-medium text-[16px] text-white/50 text-pretty flex items-center align-middle h-full">
             <div className="relative flex flex-col items-center justify-center gap-1 pl-5 pr-4 items-start h-full">
               <div className="h-2 w-2 rounded-full bg-[var(--primary-color)]"></div>

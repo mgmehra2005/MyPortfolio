@@ -16,6 +16,10 @@ export default function RootLayout({ children }) {
       <body className="relative min-h-full flex flex-col min-w-full items-center">
         <SmoothScroll>
           <CircularCursor />
+          <div
+            id="gradientBackground"
+            className="fixed top-0 left-0 min-w-full min-h-full blur-lg bg-[url('/img/gradient-background.jpeg')] brightness-50 -z-50 bg-cover bg-center bg-no-repeat"
+          ></div>
           <Header />
           {children}
           <Footer />
