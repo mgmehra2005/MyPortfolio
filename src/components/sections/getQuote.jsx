@@ -9,7 +9,7 @@ export default function GetQuote() {
         id="contact"
         className="flex items-center justify-center w-full mt-[32px]"
       >
-        <section className="relative items-start max-w-[1600px] w-full border-0 rounded-4xl border-white/10 bg-[var(--glass-background)] p-[24.6px_44.6px_32px_44.6px] flex flex-col gap-12">
+        <section className="relative items-start max-w-[1600px] w-full border-0 rounded-4xl border-white/10 bg-[var(--glass-background)]/40 p-[24.6px_44.6px_32px_44.6px] flex flex-col gap-12">
           <div className="flex justify-between p-8 items-center w-full">
             <h1 className="max-w-3xl text-8xl font-light">
               Connect with me <br />
