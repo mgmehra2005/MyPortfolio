@@ -16,4 +16,4 @@ pyvenv.cfg
 .vscode/
 
 /node_modules
-/.next
+.next/
