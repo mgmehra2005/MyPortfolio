@@ -9,9 +9,9 @@ export default function Header() {
   const menu = [
     { name: "Overview", href: "#overview" },
     { name: "Experience", href: "#experience" },
-    { name: "Projects", href: "#projects" },
+    // { name: "Projects", href: "#projects" },
     { name: "Blogs", href: "#blogs" },
-    { name: "Contact", href: "#contact" },
+    // { name: "Contact", href: "#contact" },
   ];
   const [selection, setSelection] = useState("Home");
 
