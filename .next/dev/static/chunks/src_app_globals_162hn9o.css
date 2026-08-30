@@ -658,10 +658,24 @@
     height: calc(var(--spacing) * 25);
   }
 
+<<<<<<< HEAD
+=======
+  .h-44 {
+    height: calc(var(--spacing) * 44);
+  }
+
+>>>>>>> evolutionary
   .h-54 {
     height: calc(var(--spacing) * 54);
   }
 
+<<<<<<< HEAD
+=======
+  .h-64 {
+    height: calc(var(--spacing) * 64);
+  }
+
+>>>>>>> evolutionary
   .h-\[2px\] {
     height: 2px;
   }
@@ -678,10 +692,13 @@
     height: 24px;
   }
 
+<<<<<<< HEAD
   .h-\[35em\] {
     height: 35em;
   }
 
+=======
+>>>>>>> evolutionary
   .h-\[300px\] {
     height: 300px;
   }
@@ -698,6 +715,7 @@
     height: 1px;
   }
 
+<<<<<<< HEAD
   .max-h-\[0px\] {
     max-height: 0;
   }
@@ -710,10 +728,13 @@
     max-height: 50px;
   }
 
+=======
+>>>>>>> evolutionary
   .max-h-\[480px\] {
     max-height: 480px;
   }
 
+<<<<<<< HEAD
   .max-h-\[500px\] {
     max-height: 500px;
   }
@@ -826,18 +847,24 @@
     min-height: 100em;
   }
 
+=======
+>>>>>>> evolutionary
   .min-h-\[220px\] {
     min-height: 220px;
   }
 
+<<<<<<< HEAD
   .min-h-\[350em\] {
     min-height: 350em;
   }
 
+=======
+>>>>>>> evolutionary
   .min-h-\[480px\] {
     min-height: 480px;
   }
 
+<<<<<<< HEAD
   .min-h-\[500px\] {
     min-height: 500px;
   }
@@ -846,14 +873,19 @@
     min-height: fit-content;
   }
 
+=======
+>>>>>>> evolutionary
   .min-h-full {
     min-height: 100%;
   }
 
+<<<<<<< HEAD
   .min-h-max {
     min-height: max-content;
   }
 
+=======
+>>>>>>> evolutionary
   .w-2 {
     width: calc(var(--spacing) * 2);
   }
@@ -894,10 +926,24 @@
     width: calc(var(--spacing) * 36);
   }
 
+<<<<<<< HEAD
+=======
+  .w-44 {
+    width: calc(var(--spacing) * 44);
+  }
+
+>>>>>>> evolutionary
   .w-54 {
     width: calc(var(--spacing) * 54);
   }
 
+<<<<<<< HEAD
+=======
+  .w-64 {
+    width: calc(var(--spacing) * 64);
+  }
+
+>>>>>>> evolutionary
   .w-\[12px\] {
     width: 12px;
   }
@@ -1004,6 +1050,13 @@
     rotate: 320deg;
   }
 
+<<<<<<< HEAD
+=======
+  .\[transform\:rotateY\(180deg\)\] {
+    transform: rotateY(180deg);
+  }
+
+>>>>>>> evolutionary
   .transform {
     transform: var(--tw-rotate-x, ) var(--tw-rotate-y, ) var(--tw-rotate-z, ) var(--tw-skew-x, ) var(--tw-skew-y, );
   }
@@ -1150,6 +1203,13 @@
     overflow: hidden;
   }
 
+<<<<<<< HEAD
+=======
+  .rounded {
+    border-radius: .25rem;
+  }
+
+>>>>>>> evolutionary
   .rounded-3xl {
     border-radius: calc(var(--radius) * 2.2);
   }
@@ -1162,10 +1222,25 @@
     border-radius: 3.40282e38px;
   }
 
+<<<<<<< HEAD
+=======
+  .rounded-lg {
+    border-radius: var(--radius);
+  }
+
+>>>>>>> evolutionary
   .rounded-md {
     border-radius: calc(var(--radius) * .8);
   }
 
+<<<<<<< HEAD
+=======
+  .rounded-l {
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+  }
+
+>>>>>>> evolutionary
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
@@ -1181,7 +1256,11 @@
     border-width: 1px;
   }
 
+<<<<<<< HEAD
   .border-\[2\], .border-\[2px\] {
+=======
+  .border-\[2px\] {
+>>>>>>> evolutionary
     border-style: var(--tw-border-style);
     border-width: 2px;
   }
@@ -1191,10 +1270,13 @@
     border-bottom-width: 1px;
   }
 
+<<<<<<< HEAD
   .border-\[2p\] {
     border-color: 2p;
   }
 
+=======
+>>>>>>> evolutionary
   .border-neutral-200 {
     border-color: var(--color-neutral-200);
   }
@@ -1232,6 +1314,13 @@
     background-color: lab(7.63004% -.487402 -.174505 / .6);
   }
 
+<<<<<<< HEAD
+=======
+  .bg-\[\#\] {
+    background-color: #;
+  }
+
+>>>>>>> evolutionary
   .bg-\[var\(--glass-background\)\] {
     background-color: var(--glass-background);
   }
@@ -1490,6 +1579,13 @@
     padding-left: calc(var(--spacing) * 12);
   }
 
+<<<<<<< HEAD
+=======
+  .text-center {
+    text-align: center;
+  }
+
+>>>>>>> evolutionary
   .text-justify {
     text-align: justify;
   }
@@ -1498,10 +1594,13 @@
     text-align: left;
   }
 
+<<<<<<< HEAD
   .align-baseline {
     vertical-align: baseline;
   }
 
+=======
+>>>>>>> evolutionary
   .align-bottom {
     vertical-align: bottom;
   }
@@ -1519,6 +1618,14 @@
     line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
 
+<<<<<<< HEAD
+=======
+  .text-4xl {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height));
+  }
+
+>>>>>>> evolutionary
   .text-5xl {
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
@@ -1715,6 +1822,19 @@
     color: var(--color-white);
   }
 
+<<<<<<< HEAD
+=======
+  .text-white\/7 {
+    color: #ffffff12;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .text-white\/7 {
+      color: color-mix(in oklab, var(--color-white) 7%, transparent);
+    }
+  }
+
+>>>>>>> evolutionary
   .text-white\/30 {
     color: #ffffff4d;
   }
@@ -1745,6 +1865,19 @@
     }
   }
 
+<<<<<<< HEAD
+=======
+  .text-white\/70 {
+    color: #ffffffb3;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .text-white\/70 {
+      color: color-mix(in oklab, var(--color-white) 70%, transparent);
+    }
+  }
+
+>>>>>>> evolutionary
   .text-white\/80 {
     color: #fffc;
   }
@@ -1914,6 +2047,17 @@
     --shine: #000000a8;
   }
 
+<<<<<<< HEAD
+=======
+  .\[backface-visibility\:hidden\] {
+    backface-visibility: hidden;
+  }
+
+  .\[transform-style\:preserve-3d\] {
+    transform-style: preserve-3d;
+  }
+
+>>>>>>> evolutionary
   @media (hover: hover) {
     .group-hover\:translate-x-0\.5:is(:where(.group):hover *) {
       --tw-translate-x: calc(var(--spacing) * .5);
@@ -1939,6 +2083,13 @@
       scale: var(--tw-scale-x) var(--tw-scale-y);
     }
 
+<<<<<<< HEAD
+=======
+    .group-hover\:\[transform\:rotateY\(180deg\)\]:is(:where(.group):hover *) {
+      transform: rotateY(180deg);
+    }
+
+>>>>>>> evolutionary
     .group-hover\:bg-\[\#3067FF\]:is(:where(.group):hover *) {
       background-color: #3067ff;
     }

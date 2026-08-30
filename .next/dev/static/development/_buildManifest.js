@@ -1,7 +1,10 @@
 self.__BUILD_MANIFEST = {
+<<<<<<< HEAD
   "/_error": [
     "static/chunks/pages/_error.js"
   ],
+=======
+>>>>>>> evolutionary
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],

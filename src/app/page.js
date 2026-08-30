@@ -7,6 +7,7 @@ import ExperienceSection from "@/components/sections/experience";
 import WhyWorkWithUs from "@/components/sections/whyWorkWithUs";
 import React from "react";
 import Overview from "@/components/sections/overview";
+import Contact from "@/components/sections/connect";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Overview />
       <ExperienceSection />
       <MyWrittings />
+      <Contact/>
       {/* <WhyWorkWithUs /> */}
       {/* <RelatedServices/> */}
       {/* <ClientFeedback /> */}
