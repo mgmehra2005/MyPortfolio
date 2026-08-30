@@ -17,3 +17,4 @@ pyvenv.cfg
 
 /node_modules
 .next/
+/.next
