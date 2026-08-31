@@ -15,7 +15,7 @@ export default function Contact() {
     {
       platform: "LinkedIn",
       username: "/matang_mehra",
-      link: "https://www.linkedin.com/in/matang_mehra",
+      link: "https://www.linkedin.com/in/matangmehra",
       icon: "linkedIn.svg",
     },
     {
